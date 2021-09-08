@@ -7,20 +7,7 @@ $ git init
 Folgende “Features” sind zu erarbeiten:
 1. Erzeuge drei Dateien. ( README.md , helloWorld.c , config.json )
 2. Ändere die Dateien mit folgenden Inhalt:
->README.md:
-Inhalt: Der Text dieser Aufgabe
->helloWorld.c:
-#include<stdio.h>
-int main() {
-printf("Hello World\n");
-return 0;
-}
->config.json:
-{
-"name": "Dein Name",
-"beruf": "FIAN",
-"Lieblingsfarge": "Blau"
-}
+
 Erzeuge einzelne Commits, die jeweils genau ein neues “Feature” beinhalten.
 Benutze git add und git reset (evtl. mit der Option -p ), um den Inhalt des Index genau zu
 kontrollieren.
